@@ -14,6 +14,7 @@ conda install -c bioconda HMMER
 ```
 O uso de tais ferramentas ocorre na seguinte ordem:
 **Construção de modelo HMM com `hmmbuild`  --> Criação de Index do modelo HMM com `hmmpress` --> Alinhamento e análise com `hmmscan`**
+
 O objetivo do tutorial é apontar o uso do HMMER para a observação de alinhamento e homólogos em sequências de aminoácidos e nucleotídeos.
 
 # Uso do HMMER
