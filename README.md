@@ -31,6 +31,14 @@ São necessários alguns passos para a criação de um modelo:
 
 ## 1) Obtendo as sequências
 
+## 2) Alinhamento das sequências
+
+## 3) Trimagem das sequências
+Tutorial trimagem automática = https://pytrimal.readthedocs.io/en/stable/examples/hmmer.html
+
+## 4) Criação do modelo
+Modeo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
+
 
 
 
