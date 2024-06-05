@@ -18,5 +18,5 @@ O uso de tais ferramentas ocorre na seguinte ordem:
 
 O objetivo do tutorial é apontar o uso do HMMER para a observação de alinhamento e homólogos em sequências de aminoácidos e nucleotídeos.
 
-# Uso do HMMER
-Para 
+# Criação do modelo HMM
+Modelos baseados em Hidden Markov Models (HMMs) procuram sequências em databases para achar homólogos 
