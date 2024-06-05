@@ -30,6 +30,10 @@ São necessários alguns passos para a criação de um modelo:
 - Criação do modelo com **hmmbuild***.
 
 ## 1) Obtendo as sequências
+A partir do momento que se tem uma proteína alvo para a criação de um modelo HMM, podemos começar a curadoria para selecionar nosso banco de dados. É necessário ter atenção nessa etapa, pois a escolha errada de protínas podem enviesar o modelo. Existem alguns aspectos importantes para selecionar as sequências:
+- Selecionar proteínas que sejam da mesma família do nosso alvo, preferencialmente vindas de uma espécie próxima à expécie do organismo(s) trabalhado;
+- Observar se há anotação de proteínas revisadas (isoladas em bancada), essas são prioridade na nossa escolha. Caso não seja possível obter sequências revisadas, usa-se as demais sequências;
+- Restringir a somente o básico. Caso um banco seja feito de muitas proteínas, pode ocorrer uma variação grande nas sequências, o que empobreceria o modelo criado e enviesaria os resultados. 
 
 ## 2) Alinhamento das sequências
 
