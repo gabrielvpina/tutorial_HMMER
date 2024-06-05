@@ -3,6 +3,7 @@ Esse tutorial é baseado no uso das ferramentas pertencentes ao pacote HMMER (ht
 - hmmbuild
 - hmmpress
 - hmmscan
+  
 Para a instalação do HMMER local, é possível ter acesso via `apt` em sistemas baseados em Debian:
 ```
 # instalar HMMER no Ubuntu
@@ -23,10 +24,13 @@ Modelos baseados em Hidden Markov Models (HMMs) procuram sequências em database
 
 O primeiro passo para a criação do modelo HMM é a obtenção de sequências de uma mesma família de proteínas. O objetivo é caracterizar uma sequência específica nossa, logo alimentamos nosso modelo com proteínas semelhantes.
 São necessários alguns passos para a criação de um modelo:
-- Obtenção das sequências de proteínas semelhantes com a proteína alvo (~mesma família);
-- Alinhamento das proteínas (normalmente utilizamos a ferramenta Aliview, mas existem outras [MAFFT, Jalview, etc]);
-- Trimagem das sequências;
-- Criação do modelo com **hmmbuild***.
+- 1) Obtenção das sequências de proteínas semelhantes com a proteína alvo (~mesma família);
+- 2) Alinhamento das proteínas (normalmente utilizamos a ferramenta Aliview, mas existem outras [MAFFT, Jalview, etc]);
+- 3) Trimagem das sequências;
+- 4) Criação do modelo com **hmmbuild***.
+
+## 1) Obtendo as sequências
+
 
 
 
