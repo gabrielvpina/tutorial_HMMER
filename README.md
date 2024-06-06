@@ -117,6 +117,8 @@ Modelo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
 
 # Utilizando o arquivo hmm para pesquisa de Domínios
 
+Para a pesquisa de domínios baseada no nosso modelo HMM.
+
 
 
 
