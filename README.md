@@ -117,8 +117,15 @@ Modelo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
 
 # Utilizando o arquivo hmm para pesquisa de Domínios
 
-Para a pesquisa de domínios baseada no nosso modelo HMM.
+Para a pesquisa de domínios baseada no nosso modelo HMM vamos utilizar a aplicação **hmmscan**. Mas antes de usar essa aplicação é preciso criar um index com a fnução *hmmpress* do nosso modelo .hmm:
 
+```
+# Criando index do modelo com hmmpress
+
+hmmpress meuModelo.hmm
+```
+
+Com o index criado, podemos assim usar o hmmscan para fazer a busca das nossas sequências.
 
 
 
