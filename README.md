@@ -91,6 +91,8 @@ No caso dessa imagem também podemos observar que algumas sequências não possu
 - WKR37706.1 hypothetical protein [Leptosphaeria biglobosa narnavirus 13]
 - WKR37704.1 hypothetical protein, partial [Leptosphaeria biglobosa narnavirus 12]
 
+Nesse caso deve-se avaliá-las e considerar sua deleção do modelo.
+
 Com o início e final do alinhamento cortados, podemos salvar o arquivo final em formato fasta. Na barra superior vamos em *File* e de lá seleciona-se *Save as Fasta* e o local do arquivo output.
 
 É com esse arquivo de output que criaremos o modelo HMM. Na página temos os arquivos **mafft-RNA2.aln-fasta** e **mafft-RNA3.aln-fasta** como exemplos.
