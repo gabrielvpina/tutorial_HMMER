@@ -51,12 +51,14 @@ ABCJKLMPQ
 ```
 
 ## 2) Alinhamento das sequências
-Essa etapa serve para checar as regiões de alinhamento entre as sequências escolhidas. Para isso utiliza-se softwares de alinhamento como Jalview ou Aliview. 
+Essa etapa serve para checar as regiões de alinhamento entre as sequências escolhidas. Para isso utiliza-se softwares de alinhamento como Jalview ou Aliview. As regiões alinhadas podem ser uma provável **região conservada** entre as sequências do banco de dados. É importante prestar atenção nisso.
+
 ![alt text](https://github.com/gabrielvpina/my_images/blob/main/Aliview_example.png)
 
-
+Também observa-se aqui as variações das sequências, como tamanho total, regiões exclusivas de algumas sequências, diferenças de aminoácidos em certas regiões, etc.
 
 ## 3) Trimagem das sequências
+
 Tutorial trimagem automática = https://pytrimal.readthedocs.io/en/stable/examples/hmmer.html
 
 ## 4) Criação do modelo
