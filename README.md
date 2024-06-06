@@ -94,7 +94,18 @@ Tutorial trimagem automática = https://pytrimal.readthedocs.io/en/stable/exampl
 
 ## 4) Criação do modelo
 
-Modeo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
+Agora que temos nosso arquivo final já alinhado e trimado, podemos iniciar o processo de criação do modelo HMM. Para isso vamos usar a aplicação **hmmbuild** do pacote HMMER.
+
+```
+# Construindo modelo hmm
+# Sintaxe do comando: hmmbuild [-options] <hmmfile_out> <msafile>
+
+# Query
+hmmbuild modelo.hmm mafft-RNA2.aln-fasta
+```
+
+Com isso temos o nosso modelo HMM pronto. Também é possível achar o modelos HMM de domínios proteicos já feitos em bancos como o PFAM, na plataforma InterPro.
+Modelo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
 
 
 
