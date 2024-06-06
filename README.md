@@ -33,7 +33,7 @@ São necessários alguns passos para a criação de um modelo:
 A partir do momento que se tem uma proteína alvo para a criação de um modelo HMM, podemos começar a curadoria para selecionar nosso banco de dados. É necessário ter atenção nessa etapa, pois a escolha errada de protínas podem enviesar o modelo. Existem alguns aspectos importantes para selecionar as sequências:
 - Selecionar proteínas que sejam da mesma família do nosso alvo, preferencialmente vindas de uma espécie próxima à expécie do organismo(s) trabalhado;
 - Observar se há anotação de proteínas revisadas (isoladas em bancada), essas são prioridade na nossa escolha. Caso não seja possível obter sequências revisadas, usa-se as demais sequências;
-- Restringir a somente o básico. Caso um banco seja feito de muitas proteínas, pode ocorrer uma variação grande nas sequências, o que empobreceria o modelo criado e enviesaria os resultados.
+- Restringir somente ao básico. Caso um banco seja feito de muitas proteínas diferentes, pode ocorrer uma variação grande nas sequências, o que empobreceria o modelo criado e enviesaria os resultados.
 
 Existem algumas fontes de pesquisa para preteínas. As mais usadas são o banco de dados proteicos do NCBI (https://www.ncbi.nlm.nih.gov/protein/) e o UniProt (https://www.uniprot.org/). Após pesquisar as proteínas, é necessário obter o arquivo fasta de cada.
 ```
