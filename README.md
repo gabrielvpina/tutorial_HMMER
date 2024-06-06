@@ -73,7 +73,14 @@ Com os arquivos do alinhamento em mãos, vamos importá-los para o software de a
 
 ### INPUT
 
-Ao abrir o Aliview, pressione `crtl + o` para selecionar o arquivo `*.aln-fasta` de alinhamento. Com o arquivo selecionado
+Ao abrir o Aliview, pressione `crtl + o` para selecionar o arquivo `*.aln-fasta` de alinhamento. Com o arquivo selecionado, será aberta a janela com as sequências do banco de dados alinhadas.
+
+
+![alt text](https://github.com/gabrielvpina/my_images/blob/main/Aliview_Trimming.png)
+
+### Trimagem (corte) das sequências não alinhadas
+
+
 
 
 
