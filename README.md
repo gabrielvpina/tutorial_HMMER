@@ -75,19 +75,25 @@ Com os arquivos do alinhamento em mãos, vamos importá-los para o software de a
 
 Ao abrir o Aliview, pressione `crtl + o` para selecionar o arquivo `*.aln-fasta` de alinhamento. Com o arquivo selecionado, será aberta a janela com as sequências do banco de dados alinhadas.
 
+### Trimagem (corte) das sequências não alinhadas
+
+Para o corte dessas sequências vamos selecionar as partes das extremidades de todas as sequências. Normalmente vamos encontrar algo como apontado na imagem:
 
 ![alt text](https://github.com/gabrielvpina/my_images/blob/main/Aliview_Trimming.png)
 
-### Trimagem (corte) das sequências não alinhadas
+Essas regiões no início e no final do alinhamento devem ser removidas. Sua remoção ocorre no prórpio software do Aliview.
 
+**Para retirar as partes não alinhadas** vamos selecionar com o mouse a parte superior, acima da primeira sequência e clicar. Assim a coluna inteira será selecionada, a partir daí com a tecla `shift` pressionada podemos e selecionando todos os itens do alinhamento com `shift + seta esq./dir.` e ir selecionando a faixa de sequências até a parte alinhada. Ao selecionar a parte de corte, basta pressionar `del` para retirar a área.
 
+Com o início e final do alinhamento cortados, podemos salvar o arquivo final em formato fasta. Na barra superior vamos em *File* e de lá seleciona-se *Save as Fasta* e o local do arquivo output.
 
+É com esse arquivo de output que criaremos o modelo HMM. Na página temos os arquivos **mafft-RNA2.aln-fasta** e **mafft-RNA3.aln-fasta** como exemplos.
 
-
-
+Para mais informações sobre trimagem, existe esse tutorial de trimagem automática usando bibliotecas de Python, para quem tiver interesse.
 Tutorial trimagem automática = https://pytrimal.readthedocs.io/en/stable/examples/hmmer.html
 
 ## 4) Criação do modelo
+
 Modeo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
 
 
