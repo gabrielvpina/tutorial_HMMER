@@ -62,12 +62,19 @@ Também observa-se aqui as variações das sequências, como tamanho total, regi
 Para fazer o alinhamento das sequências do banco de dados, vamos utilizar a ferramenta *Multiple Sequence Aligner* (MSA) disponível online pelo seguinte link - https://www.ebi.ac.uk/jdispatcher/msa/mafft. Nela vamos colocar nossa sequência FASTA como input e selecionar o *Sequence Type* como *Protein*.
 Com o input pronto, submete-se o trabalho.
 
-A partir da submissão das sequências, o output da plataforma será dividido em várias seções. Uma delas, que deve-se fazer o download, é a seção *Output Files*. Mais especificamente o arquivo *Alignment in FASTA format*, esse arquivo será o input dos softwares de alinhamento, como o Aliview.
+A partir da submissão das sequências, o output da plataforma será dividido em várias seções. Uma delas, que deve-se fazer o download, é a seção *Output Files*. Mais especificamente o arquivo *Alignment in FASTA format* (o com o *.aln-fasta* no final), esse arquivo será o input dos softwares de alinhamento, como o Aliview.
 Na plataforma MAFFT é possível também observar os alinhamentos na sessão *Alignments* caso queira observar os alinhamentos mais rapidamente.
 
 Os arquivos **narnavirus-RNA2.fasta** e **narnavirus-RNA3.fasta** podem ser usados como exemplos de inputs para a ferramenta MSA.
 
 ## 3) Trimagem das sequências
+
+Com os arquivos do alinhamento em mãos, vamos importá-los para o software de alinhamento. Usaremos o **Aliview**[https://ormbunkar.se/aliview/] como exemplo.
+
+### INPUT
+
+Ao abrir o Aliview, pressione `crtl + o` para selecionar o arquivo `*.aln-fasta` de alinhamento. Com o arquivo selecionado
+
 
 
 
