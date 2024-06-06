@@ -69,7 +69,7 @@ Os arquivos **narnavirus-RNA2.fasta** e **narnavirus-RNA3.fasta** podem ser usad
 
 ## 3) Trimagem das sequências
 
-Com os arquivos do alinhamento em mãos, vamos importá-los para o software de alinhamento. Usaremos o **Aliview**[https://ormbunkar.se/aliview/] como exemplo.
+Com os arquivos do alinhamento em mãos, vamos importá-los para o software de alinhamento. Usaremos o [Aliview](https://ormbunkar.se/aliview/) como exemplo.
 
 ### INPUT
 
