@@ -61,6 +61,7 @@ Também observa-se aqui as variações das sequências, como tamanho total, regi
 
 Para fazer o alinhamento das sequências do banco de dados, vamos utilizar a ferramenta *Multiple Sequence Aligner* (MSA) disponível online pelo seguinte link - https://www.ebi.ac.uk/jdispatcher/msa/mafft. Nela vamos colocar nossa sequência FASTA como input e selecionar o *Sequence Type* como *Protein*.
 Com o input pronto, submete-se o trabalho.
+
 A partir da submissão das sequências, o output da plataforma será dividido em várias seções. Uma delas, que deve-se fazer o download, é a seção *Output Files*. Mais especificamente o arquivo *Alignment in FASTA format*, esse arquivo será o input dos softwares de alinhamento, como o Aliview.
 Na plataforma MAFFT é possível também observar os alinhamentos na sessão *Alignments* caso queira observar os alinhamentos mais rapidamente.
 
