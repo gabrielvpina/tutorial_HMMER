@@ -101,11 +101,13 @@ Agora que temos nosso arquivo final já alinhado e trimado, podemos iniciar o pr
 # Sintaxe do comando: hmmbuild [-options] <hmmfile_out> <msafile>
 
 # Query
-hmmbuild modelo.hmm mafft-RNA2.aln-fasta
+hmmbuild meuModelo.hmm mafft-RNA2.aln-fasta
 ```
 
 Com isso temos o nosso modelo HMM pronto. Também é possível achar o modelos HMM de domínios proteicos já feitos em bancos como o PFAM, na plataforma InterPro.
 Modelo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
+
+# Utilizando o arquivo hmm para pesquisa de Domínios
 
 
 
