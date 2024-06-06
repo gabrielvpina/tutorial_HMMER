@@ -85,6 +85,12 @@ Essas regiões no início e no final do alinhamento devem ser removidas. Sua rem
 
 **Para retirar as partes não alinhadas** vamos selecionar com o mouse a parte superior, acima da primeira sequência e clicar. Assim a coluna inteira será selecionada, a partir daí com a tecla `shift` pressionada podemos e selecionando todos os itens do alinhamento com `shift + seta esq./dir.` e ir selecionando a faixa de sequências até a parte alinhada. Ao selecionar a parte de corte, basta pressionar `del` para retirar a área.
 
+No caso dessa imagem também podemos observar que algumas sequências não possuem muitos alinhamentos com o resto do nosso banco, elas são:
+
+- WNA22209.1 MAG: RdRp [Plasmopara viticola lesion associated narnavirus 3]
+- WKR37706.1 hypothetical protein [Leptosphaeria biglobosa narnavirus 13]
+- WKR37704.1 hypothetical protein, partial [Leptosphaeria biglobosa narnavirus 12]
+
 Com o início e final do alinhamento cortados, podemos salvar o arquivo final em formato fasta. Na barra superior vamos em *File* e de lá seleciona-se *Save as Fasta* e o local do arquivo output.
 
 É com esse arquivo de output que criaremos o modelo HMM. Na página temos os arquivos **mafft-RNA2.aln-fasta** e **mafft-RNA3.aln-fasta** como exemplos.
