@@ -57,6 +57,12 @@ Essa etapa serve para checar as regiões de alinhamento entre as sequências esc
 
 Também observa-se aqui as variações das sequências, como tamanho total, regiões exclusivas de algumas sequências, diferenças de aminoácidos em certas regiões, etc.
 
+**Alinhamento na plataforma MAFFT (MSA)**
+Para fazer o alinhamento das sequências do banco de dados, vamos utilizar a ferramenta *Multiple Sequence Aligner* (MSA) disponível online pelo seguinte link - https://www.ebi.ac.uk/jdispatcher/msa/mafft. Nela vamos colocar nossa sequência FASTA como input e selecionar o *Sequence Type* como *Protein*.
+A partir do input, submete-se o trabalho.
+
+
+
 ## 3) Trimagem das sequências
 
 Tutorial trimagem automática = https://pytrimal.readthedocs.io/en/stable/examples/hmmer.html
