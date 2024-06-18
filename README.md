@@ -127,5 +127,25 @@ hmmpress meuModelo.hmm
 
 Com o index criado, podemos assim usar o hmmscan para fazer a busca das nossas sequências.
 
+```
+# Usando hmmscan
+
+hmmscan --domtblout resultado.txt meuModelo.hmm sequenciaQuery.fasta
+```
+
+A partir disso teremos nosso output `resultados.txt` com os hits que correspondem com o nosso modelo. Como o resultado .txt não é facilmente processado em tabela, vamos usar script [HmmPy](https://github.com/EnzoAndree/HmmPy) disponível no github.
+
+```
+# Usando o HmmPy.py no arquivo "resultados.txt" gerado pelo hmmscan.
+
+python3 HmmPy.py resultados.txt -e 1e-5 -c 0.4 -u -o tabelaFilrada.tsv
+
+# Sendo:
+# -e = E-value mínimo;
+# -c = Cobertura mínima;
+# -u = Unique;
+# -o = Output file.
+```
+
 
 
