@@ -115,7 +115,7 @@ hmmbuild meuModelo.hmm mafft-RNA2.aln-fasta
 Com isso temos o nosso modelo HMM pronto. Também é possível achar o modelos HMM de domínios proteicos já feitos em bancos como o PFAM, na plataforma InterPro.
 Modelo pronto PFAM = https://www.ebi.ac.uk/interpro/entry/pfam/PF00680/curation/
 
-# Utilizando o arquivo hmm para pesquisa de Domínios
+# Utilizando o arquivo hmm para pesquisa de Domínios Conservados
 
 Para a pesquisa de domínios baseada no nosso modelo HMM vamos utilizar a aplicação **hmmscan**. Mas antes de usar essa aplicação é preciso criar um index com a fnução *hmmpress* do nosso modelo .hmm:
 
